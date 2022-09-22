@@ -1,0 +1,31 @@
+.memeContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.meme {
+    width: fit-content;
+    position: relative;
+}
+
+.meme img {
+    max-width: 500px;
+}
+
+.textTop, .textBottom {
+    position: absolute;
+    left: 5%;
+    font-size: 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.textTop {
+    top: -15px;
+}
+
+.textBottom {
+    bottom: -15px;
+}

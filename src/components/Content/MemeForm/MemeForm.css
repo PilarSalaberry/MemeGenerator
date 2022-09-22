@@ -1,0 +1,32 @@
+.memeForm form {
+ display: flex;
+ justify-content: space-evenly;
+ width: 40%;
+ align-items: center;
+ margin-top: 20px;
+}
+
+.memeForm {
+    display: flex;
+    justify-content: center;
+}
+
+.memeForm input {
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 5px;
+    border: 1px dotted #7337d3;
+}
+
+.memeButton {
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #7337d3;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}

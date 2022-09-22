@@ -1,0 +1,13 @@
+.footer {
+    background-color: #7337d3;
+    color: #fff;
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+}
+
+.footer p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: monospace;
+}
